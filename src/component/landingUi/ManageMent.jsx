@@ -14,7 +14,7 @@ export default function ManageMent() {
                     <Button className={"w-fit"}>Contact Now</Button>
 
                 </div>
-                <div className="management-grid grid grid-cols-2 gap-6">
+                <div className="management-grid grid md:grid-cols-2 gap-6">
                     <div className="left h-[500px] relative">
                         <Image src={"/principle.webp"} width={500} height={500} className='w-full h-full object-cover' />
                         <div className="contetn text-4xl flex font-bold absolute bottom-0 p-4 bg-black/60 backdrop-blur-sm text-white w-full">

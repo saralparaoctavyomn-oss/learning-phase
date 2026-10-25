@@ -16,7 +16,7 @@ export default function Landing() {
             </video>
 
             {/* Overlay Content Box */}
-            <div className="bottom absolute bg-black/90 backdrop-blur-md text-white w-full max-w-[1200px] p-8 bottom-6">
+            <div className="bottom absolute bg-black/90 backdrop-blur-md text-white w-full max-w-[1200px] p-8 bottom-0 md:bottom-6">
                 <div className="botom-content flex flex-col w-full justify-between md:flex-row gap-4">
                     <div className="left w-full uppercase text-3xl max-w-[400px]">
                         <h2>Best Baby's Scholl in Kokrajhad</h2>

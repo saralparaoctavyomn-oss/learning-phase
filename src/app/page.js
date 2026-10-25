@@ -12,17 +12,20 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div>
-      <TopNotify/>
-      <Header/>
-      <Landing/>
-      <AboutUs/>
-      <TabSection/>
-      <TopScrroer/>
-      <Events/>
-      <Alumni/>
-      <ManageMent/> 
-      <Footer/>
+    <div >
+      <TopNotify />
+      <Header />
+      <Landing />
+      <div className='p-4 md:p-0'>
+        <AboutUs />
+        <TabSection />
+        <TopScrroer />
+        <Events />
+        <Alumni />
+        <ManageMent />
+      </div>
+
+      <Footer />
     </div>
   )
 }

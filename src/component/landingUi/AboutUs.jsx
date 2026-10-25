@@ -5,7 +5,7 @@ import React from 'react'
 export default function AboutUs() {
     return (
         <div className='about w-full flex justify-center items-center h-fit py-24'>
-            <div className="about-content w-full max-w-[1200px] flex-start flex gap-8 justify-between">
+            <div className="about-content grid md:grid-cols-2 w-full max-w-[1200px] flex-start flex gap-8 justify-between">
                 <div className="left w-full  max-w-[600px] h-fit">
                     <h2 className='uppercase text-4xl font-bold'><span className='text-gray-300'>About</span> baby's nurssury school</h2>
                     <p className='text-justify'>Hii we are see <span>BABY'S NURSSERY SCHOLL </span> In Assam Kokrajhad and we tech best in Assam so you dont street to think your baby we tech better life better future so if you admit your baby so you'r strees free Gurdian.
